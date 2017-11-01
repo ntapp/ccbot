@@ -7,7 +7,7 @@ edit_uri: ""
 copyright: Copyright &copy; 2017 <a href="https://twitter.com/nkts">nkts</a>.
 google_analytics: null
 theme: mkdocs
-site_dir: mkdocs_build
+site_dir: site
 dev_addr: '127.0.0.1:8000'
 
 plugins:
