@@ -28,7 +28,6 @@ pages:
     - ブログ: blogs/index.md
     - 暗号通貨関連リンク集: links/index.md
 
-
 extra_css:
     - css/extra.css
 
