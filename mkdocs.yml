@@ -1,6 +1,6 @@
 site_name: 暗号通貨取引ボット
 site_url: https://twitter.com/nkts
-site_description: 暗号通貨ための各種ボットサービスです。
+site_description: 暗号通貨自動取引ボットで効率よく資産を増やそう！
 site_author: '@nkts'
 repo_url: https://github.com/ntapp/ccbot
 edit_uri: ""
