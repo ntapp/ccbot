@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="@nkts">
+        <link rel="canonical" href="https://twitter.com/nkts/services/source_code/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>ソースコード販売 - 暗号通貨ボット販売所</title>
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../../css/highlight.css">
+        <link href="../../css/extra.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../../js/jquery-1.10.2.min.js"></script>
+        <script src="../../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../../js/highlight.pack.js"></script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="../..">暗号通貨ボット販売所</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                    <li >
+                        <a href="../..">ホーム</a>
+                    </li>
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">サービス <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            
+<li class="active">
+    <a href="./">ソースコード販売</a>
+</li>
+                            
+<li >
+    <a href="../bot_operation_agent/">自動売買ボット運用代行</a>
+</li>
+                            
+<li >
+    <a href="../crypto_notify/">売買シグナル通知ボット</a>
+</li>
+                        </ul>
+                    </li>
+                    <li >
+                        <a href="../../result/">実績</a>
+                    </li>
+                    <li >
+                        <a href="../../price/">料金</a>
+                    </li>
+                    <li >
+                        <a href="../../qa/">Q&A</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">その他 <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            
+<li >
+    <a href="../../about/">About</a>
+</li>
+                            
+<li >
+    <a href="../../schedule/">今後の予定</a>
+</li>
+                            
+<li >
+    <a href="../../blogs/">ブログ</a>
+</li>
+                            
+<li >
+    <a href="../../links/">リンク</a>
+</li>
+                        </ul>
+                    </li>
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                    <li >
+                        <a rel="next" href="../..">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../bot_operation_agent/">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/mkdocs/mkdocs/">hogehoge</a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#_1">自動売買ボット販売のご案内</a></li>
+            <li><a href="#_2">ソースコードについて</a></li>
+            <li><a href="#_3">ボットの運用について</a></li>
+            <li><a href="#_6">ボットの種類</a></li>
+            <li><a href="#_7">動作環境</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="_1">自動売買ボット販売のご案内<a class="headerlink" href="#_1" title="Permanent link"></a></h1>
+<p>暗号通貨を自動売買するボットプログラムのソースコード（Python3）を販売しております（全て運用検証済み）。</p>
+<p>ご購入されたプログラムをご自身で稼働させて運用することが基本となりますが、ご自身で運用するのが難しい方向けには運用の代行も承っております。</p>
+<p>この他、<a href="https://git.io/vdz1k">暗号通貨の売買シグナルをメールで通知</a>するというサービスの準備（運用検証中）も進めております。ご利用者はメールを受け取ったらできるだけ早く取引所サイトにアクセスして売買するか判断してご自身で取引を行うものです。</p>
+<h2 id="_2">ソースコードについて<a class="headerlink" href="#_2" title="Permanent link"></a></h2>
+<ol>
+<li>Zaifをはじめ各種取引所用のボットが含まれており、今後も追加していきます。現時点ではZaif用に初学者向け学習用、レンジ相場用（トラップ系含む）、トレンド相場用の計8種類があります。 Poloniex用にはトレンド相場用のボットがあります。</li>
+<li>対象通貨は現在のところ、Zaif用がBTC_JPYのみ、Poloniex用がUSDT_BTC、BTC_XEMに対応しておりますが、通貨に関してはソースコードを変更していただければ良いかと思います。対応通貨は今後も増やしていく予定ではありますが、なにを追加するかについては未定です。</li>
+<li>通知ボットのソースコードは含みません。通知ボットは基本的に売買シグナル時に売買するのではなくメールやTwitterに通知を行うだけでほとんど同じです。簡単なサンプルコードは提供しようと思います。</li>
+</ol>
+<h2 id="_3">ボットの運用について<a class="headerlink" href="#_3" title="Permanent link"></a></h2>
+<h3 id="_4">ご購入者による運用<a class="headerlink" href="#_4" title="Permanent link"></a></h3>
+<p>まず、ボットを適当に自動運用すれば勝手に利益が増えるという夢はお捨てください。そのようなものは、まだ世の中に存在しません。全ての相場の状況に自動で対応して最適な売買をするプログラムは現時点では存在しないのです。たとえAIを使ったとしても。</p>
+<p>必ず人間が相場を確認して、最適と思われるボットを選択して運用する必要があります。場合によっては、取引を一時的に中断させた方が良い場合もあるでしょう。また、たまたま相場を見ていて「今だ！」と確信している場合は、人間が直接介入して取引すべきでしょう。</p>
+<p>レンジ相場用のボットの運用については注意があります。人間がちょこちょこ相場の状況とボットによる売買状況を確認する必要があります。そして、レンジ相場が終わった又は、外出する必要が出てきた場合はプログラムを停止させる必要が有ります。そうしないと、高止まりしたり、レンジが上下して売買範囲を超えてしまうでしょう。
+とは言っても、取引幅と売買量を設定で指定して、後は動作を見守るだけなので、短時間中に人力で何十回も取引を行うよりもずっと楽です。</p>
+<p>トレンド相場用のボットは放置して安定的に利益を得ることは可能です。
+しかし、トレンドが何日も発生しない場合は、その間中、売買自体が行われません。「あれ？ ここで取引しても良いのでは？」と思うかもしれませんが、そのときはレンジ相場なのです。</p>
+<p>PCに張り付いている時間があるので、もう少し利益がほしいなという場合は、レンジ相場用の超短期売買ボットをご利用ください。何度も言いますが、レンジ相場用ボットは状況に合わせて設定を都度変える必要があります。いわば半自動みたいなものです。</p>
+<h4 id="_5">ソースコードでのボット運用ならではの利点<a class="headerlink" href="#_5" title="Permanent link"></a></h4>
+<ul>
+<li>自分のPCでいつでも取引開始と停止が可能。停止はCtrl-Cをタイプ一発。</li>
+<li>一時的に機能を有効化したり無効化したりが簡単に行えます。（コメントアウトなど）</li>
+<li>ボットの売買設定を変更して、最適な売買を行えます。（実験として運用することも簡単）</li>
+<li>各種ソースコードを元に、ご自身だけのカスタムボットを作成、運用が可能。</li>
+<li>運用を通して、暗号通貨売買取引の理解が深まる。</li>
+</ul>
+<h2 id="_6">ボットの種類<a class="headerlink" href="#_6" title="Permanent link"></a></h2>
+<table>
+<thead>
+<tr>
+<th align="left">種類（用途）</th>
+<th align="center">放置運用</th>
+<th align="left">概要</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">学習</td>
+<td align="center">未推奨</td>
+<td align="left">簡単な取引を通して、ボットが取引を行うために必要な処理を、どのように行うかが学習できます。<br />もちろん利益は出せますが効率は悪いです。<br />２種類あります。</td>
+</tr>
+<tr>
+<td align="left">レンジ相場</td>
+<td align="center">不可</td>
+<td align="left">スキャルピング手法で取引を行います。取引幅や取引額などの設定を行って運用します。<br />一定時間毎に、相場とボットの動作を確認することをおすすめします。<br />2種類あります。</td>
+</tr>
+<tr>
+<td align="left">トレンド相場</td>
+<td align="center">可</td>
+<td align="left">デフォルトでは１時間足のチャートデータを使用して、短期のスイング（約1日〜3日）手法で取引を行います。<br />最も安定して利益を得られます。<br />1種類あります</td>
+</tr>
+<tr>
+<td align="left">レンジ相場<br />トレンド相場</td>
+<td align="center">未推奨</td>
+<td align="left">レンジ相場用とトレンド相場用の中間的な動作をします。 2種類あります。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_7">動作環境<a class="headerlink" href="#_7" title="Permanent link"></a></h2>
+<ul>
+<li>OS:<ul>
+<li>Windows7以降（10以降が望ましい）</li>
+<li>macOS（Sierra 10.12.6）</li>
+<li>Linux（Ubuntu 16.04 LTS相当以上）</li>
+</ul>
+</li>
+<li>開発言語: Python 3.6以上</li>
+</ul></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+                <p>Copyright &copy; 2017 <a href="https://twitter.com/nkts">nkts</a>.</p>
+            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>var base_url = '../..';</script>
+        <script src="../../js/base.js"></script>
+        <script src="../../search/require.js"></script>
+        <script src="../../search/search.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td><kbd>&larr;</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td><kbd>&rarr;</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    </body>
+</html>
