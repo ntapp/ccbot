@@ -15,6 +15,10 @@
 
 > 1Bs4wo8EQbmLrJ2pmiZL8tiusinHjGNXe1
 
+![送金先アドレス](./img/btc_address.png)
+
+
+
 ## 注意事項
 
 - 運用代行費はボット毎（異なる取引所、異なる通貨ペア）に発生します。  
