@@ -1,1 +1,39 @@
-site_name: My Docs
+site_name: 暗号通貨取引ボット
+site_url: https://twitter.com/nkts
+site_description: 暗号通貨ための各種ボットサービスです。
+site_author: '@nkts'
+repo_url: https://github.com/ntapp/ccbot
+edit_uri: ""
+copyright: Copyright &copy; 2017 <a href="https://twitter.com/nkts">nkts</a>.
+google_analytics: null
+theme: mkdocs
+site_dir: mkdocs_build
+dev_addr: '127.0.0.1:8000'
+
+plugins:
+    - search
+
+pages:
+  - ホーム: index.md
+  - サービス:
+    - ソースコード販売: services/source_code/index.md
+    - 自動売買ボット運用代行: services/bot_operation_agent/index.md
+    - 売買シグナル通知ボット: services/crypto_notify/index.md
+  - 実績: result.md
+  - 料金: price.md
+  - Q&A: qa.md
+  - その他:
+    - About: about.md
+    - 今後の予定: schedule.md
+    - ブログ: blogs/index.md
+    - 暗号通貨関連リンク集: links/index.md
+
+
+extra_css:
+    - css/extra.css
+
+markdown_extensions:
+    - toc:
+        permalink: 
+    - admonition
+    - def_list
