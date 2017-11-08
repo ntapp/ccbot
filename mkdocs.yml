@@ -2,16 +2,15 @@ site_name: 暗号通貨取引ボット
 site_url: https://twitter.com/nkts
 site_description: 暗号通貨自動取引ボットで効率よく資産を増やそう！
 site_author: '@nkts'
-repo_url: https://github.com/ntapp/ccbot
-edit_uri: ""
+repo_url: null
+edit_uri: edit/master/docs/ 
 copyright: Copyright &copy; 2017 <a href="https://twitter.com/nkts">nkts</a>.
 google_analytics: null
 theme: mkdocs
 site_dir: site
 dev_addr: '127.0.0.1:8000'
 
-plugins:
-    - search
+plugins: ['search']
 
 pages:
   - ホーム: index.md
@@ -33,6 +32,5 @@ extra_css:
 
 markdown_extensions:
     - toc:
-        permalink: 
-    - admonition
-    - def_list
+        permalink: True
+
