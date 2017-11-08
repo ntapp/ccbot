@@ -69,3 +69,9 @@
 ### チャートの操作方法など
 
 - [TradingView 使い方ガイド | Zaif Exchange](https://corp.zaif.jp/doc_tradingview/)
+
+### Misc
+
+- [CryptoCurrency Market Capitalizations](https://coinmarketcap.com/)
+- [Eobot](https://www.eobot.com)
+
